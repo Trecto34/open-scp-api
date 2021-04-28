@@ -54,9 +54,6 @@ I decided to do this project to increase my Django Rest Framework skills and kno
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-<br />
-
 ### Prerequisites
 
 * Python >= 3.8.5
