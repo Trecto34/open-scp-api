@@ -12,8 +12,6 @@
   </p>
 </p>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
@@ -37,27 +35,25 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
-## About The Project
 
+## About The Project
 
 I decided to do this project to increase my Django Rest Framework skills and knowledge, the reason I chose Project-SCP was due to the fact that there is no open API to query Foundation items
 
-
 ### Built With
 
-* [Django](https://www.djangoproject.com)
-* [Django Rest Framework](https://www.django-rest-framework.org)
-
+- [Django](https://www.djangoproject.com)
+- [Django Rest Framework](https://www.django-rest-framework.org)
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
+
 ### Prerequisites
 
-* Python >= 3.8.5
-* Pip >= 21.1
+- Python >= 3.8.5
+- Pip >= 21.1
 
 ### Installation
 
@@ -69,17 +65,17 @@ I decided to do this project to increase my Django Rest Framework skills and kno
    ```sh
    pip install -r requirements.txt
    ```
-3. Create a ```.env``` archive on ```./scp_api``` and add this:
+3. Create a `.env` archive on `./scp_api` and add this:
    ```sh
    KEY = your-custom-key
    ```
 
-
-
 <!-- USAGE EXAMPLES -->
+
 ## Usage
 
 1. run:
+
    ```sh
    ./manage.py createsuperuser
    ```
@@ -89,8 +85,11 @@ I decided to do this project to increase my Django Rest Framework skills and kno
    ./manage.py runserver
    ```
 
-
 ## Todo:
-* Add register and login feature
-* Document the api
-* Host the api
+
+<div>
+  <p>[*] Add register and login feature</p>
+  <p>[] Improve register and login system</p>
+  <p>[] Document the api</p>
+ <p> [] Host the api</p>
+</div>

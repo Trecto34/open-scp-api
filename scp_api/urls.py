@@ -1,8 +1,10 @@
 from django.contrib import admin
 from django.urls import path, include
-from scp_series import urls
+import scp_series.urls
+import accounts.urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include(urls)),
+    path('api/', include(scp_series.urls)),
+    path('account/', include(accounts.urls)),
 ]
