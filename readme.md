@@ -88,6 +88,6 @@ I decided to do this project to increase my Django Rest Framework skills and kno
 ## Todo:
 - [x] Add register and login feature
 - [x] Improve register and login system
-- [ ] Add level permission
+- [x] Add level permission
 - [ ] Document the api
 - [ ] Host the api
