@@ -1,3 +1,4 @@
+from rest_framework.permissions import IsAuthenticatedOrReadOnly
 from rest_framework import generics
 from .models import Object
 from .serializers import ObjectSerializer
@@ -8,8 +9,6 @@ class ObjectViews(generics.ListCreateAPIView):
   serializer_class = ObjectSerializer
 
 
-class ObjectRetrieve(generics.RetrieveAPIView):
+class ObjectRetrieve(generics.RetrieveUpdateAPIView):
   queryset = Object.objects.all()
   serializer_class = ObjectSerializer
-
-
