@@ -48,6 +48,9 @@ I decided to do this project to increase my Django Rest Framework skills and kno
 
 <!-- GETTING STARTED -->
 
+## Deployed Version
+https://open-scp-api.herokuapp.com/
+
 ## Getting Started
 
 ### Prerequisites
@@ -65,7 +68,11 @@ I decided to do this project to increase my Django Rest Framework skills and kno
    ```sh
    pip install -r requirements.txt
    ```
-3. Create a `.env` archive on `./scp_api` and add this:
+3. Run this
+   ```sh
+   python manage.py migrate --run-syncdb
+   ```
+4. Create a `.env` archive on `./scp_api` and add this:
    ```sh
    KEY = your-custom-key
    ```
@@ -90,4 +97,4 @@ I decided to do this project to increase my Django Rest Framework skills and kno
 - [x] Improve register and login system
 - [x] Add level permission
 - [ ] Document the api
-- [ ] Host the api
+- [x] Deploy the api
